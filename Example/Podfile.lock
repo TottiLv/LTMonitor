@@ -1,0 +1,27 @@
+PODS:
+  - FBRetainCycleDetector (0.1.4)
+  - LTMonitor (0.1.0):
+    - MLeaksFinder
+  - MLeaksFinder (1.0.0):
+    - FBRetainCycleDetector
+
+DEPENDENCIES:
+  - LTMonitor (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBRetainCycleDetector
+    - MLeaksFinder
+
+EXTERNAL SOURCES:
+  LTMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBRetainCycleDetector: 46f8179bbb1c587deee3ea838a1a3ee02acf5015
+  LTMonitor: 03739cdcc6d2eea773b3561db6655e544e6de4fe
+  MLeaksFinder: 8c435bd2f6d070af18cff082b503b21adc130fc0
+
+PODFILE CHECKSUM: 3f6a36c32f9b0e5a827ede2290f459961e70367d
+
+COCOAPODS: 1.9.3
