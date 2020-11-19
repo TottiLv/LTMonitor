@@ -7,12 +7,15 @@
 //
 
 #import "LTAppDelegate.h"
+#import <LTMonitor/LTMonitorCenter.h>
 
 @implementation LTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[LTMonitorCenter defaultCenter] rcMonitorEnable];
+    
     return YES;
 }
 
