@@ -22,7 +22,7 @@ pod 'LTMonitor'
 
 ## Author
 
-wolf_childer@163.com, lvjianxiong@rouchi.com
+lvjianxiong, wolf_childer@163.com
 
 ## License
 
